@@ -1,17 +1,14 @@
 <template>
-
   <div>
-    <v-icon icon="fas fa-suitcase" />
+    {{ $t('navbar.hello') }}
   </div>  
 </template>
 
 <script>
 
 export default {
-data() {
-    return {
-    //
-    }
-}
+  computed: {
+    
+  }
 }
 </script>
