@@ -1,0 +1,17 @@
+<template>
+
+  <div>
+    <v-icon icon="fas fa-suitcase" />
+  </div>  
+</template>
+
+<script>
+
+export default {
+data() {
+    return {
+    //
+    }
+}
+}
+</script>
