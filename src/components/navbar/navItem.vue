@@ -1,7 +1,7 @@
 <template>
 <div class="nav-item">
 
-  <router-link class="nav-item-icon" to="/">
+  <router-link class="nav-item-icon" :to="item.route">
     <v-icon :icon="item.icon" />
   </router-link>
   

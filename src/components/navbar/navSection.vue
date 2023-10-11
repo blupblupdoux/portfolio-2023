@@ -13,11 +13,11 @@ export default {
   computed: {
     items() {
       return [
-        { icon: 'fas fa-suitcase', text: '' },
-        { icon: 'fas fa-lightbulb-o', text: '' },
-        { icon: 'fas fa-graduation-cap', text: '' },
-        { icon: 'fas fa-info', text: '' },
-        { icon: 'fas fa-code ', text: '' }
+        { icon: 'fas fa-info', route: '/', text: '' },
+        { icon: 'fas fa-suitcase', route: '/experience', text: '' },
+        { icon: 'fas fa-lightbulb-o', route: '/skills', text: '' },
+        { icon: 'fas fa-graduation-cap', route: '/education', text: '' },
+        { icon: 'fas fa-code ', route: '/projects', text: '' }
       ]
     }
   },

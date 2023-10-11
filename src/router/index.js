@@ -1,13 +1,27 @@
 import { createRouter, createWebHistory } from "vue-router";
-import HomeView from "../views/HomeView.vue";
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
     {
       path: "/",
-      name: "home",
-      component: HomeView,
+      component: () => import('../components/main/pages/infosPage.vue')
+    },
+    {
+      path: "/experience",
+      component: () => import('../components/main/pages/experiencePage.vue')
+    },
+    {
+      path: "/skills",
+      component: () => import('../components/main/pages/skillsPage.vue')
+    },
+    {
+      path: "/education",
+      component: () => import('../components/main/pages/educationPage.vue')
+    },
+    {
+      path: "/projects",
+      component: () => import('../components/main/pages/projectsPage.vue')
     },
   ],
 });
