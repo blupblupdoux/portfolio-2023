@@ -4,7 +4,7 @@
     <header-section></header-section>
   </header>
 
-  <nav id="navSection" style="border: 1px solid blue">
+  <nav id="navSection">
       <nav-section></nav-section>
   </nav>
 
@@ -40,6 +40,9 @@ export default {
 #navSection {
   width: 8vw;
   height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 </style>
