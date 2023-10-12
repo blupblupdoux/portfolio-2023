@@ -1,6 +1,10 @@
 <template>
   <div id="navbar">
-    <nav-item v-for="(item, index) in items" :item="item" :is-last-item="isLastItem(index)"></nav-item>
+    <nav-item v-for="(item, index) in items" 
+      :key="'nav-item-' + index" 
+      :item="item" 
+      :is-last-item="isLastItem(index)">
+    </nav-item>
   </div>  
 </template>
 

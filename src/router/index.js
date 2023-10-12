@@ -9,7 +9,7 @@ const router = createRouter({
     },
     {
       path: "/experience",
-      component: () => import('../components/main/pages/experiencePage.vue')
+      component: () => import('../components/main/experience/experiencePage.vue')
     },
     {
       path: "/skills",
@@ -21,7 +21,7 @@ const router = createRouter({
     },
     {
       path: "/projects",
-      component: () => import('../components/main/pages/projectsPage.vue')
+      component: () => import('../components/main/projects/projectsPage.vue')
     },
   ],
 });

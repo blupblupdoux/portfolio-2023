@@ -35,7 +35,7 @@ data() {
 .nav-item-icon {
   width: 80px;
   height: 80px;
-  border: 1px solid #2c3e50;
+  border: 1px solid #2f2e41;
   border-radius: 100%;
   display: flex;
   justify-content: center;
