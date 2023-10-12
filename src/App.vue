@@ -1,6 +1,6 @@
 <template>
 
-  <header id="headerSection" style="border: 1px solid red">
+  <header id="headerSection">
     <header-section></header-section>
   </header>
 
@@ -8,7 +8,7 @@
       <nav-section></nav-section>
   </nav>
 
-  <main id="mainSection" style="border: 1px solid green">
+  <main id="mainSection">
     <RouterView />
   </main>
 
@@ -35,6 +35,12 @@ export default {
 #headerSection, #mainSection {
   width: 46vw;
   height: 100vh;
+}
+
+#headerSection {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 #navSection {

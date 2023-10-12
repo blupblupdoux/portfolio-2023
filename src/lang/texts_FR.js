@@ -1,6 +1,7 @@
 export default {
 	header: {
-		hello: 'coucou'
+		title: 'Sarah Bobtchev-Melin',
+		subtitle: 'Developpeuse web'
 	},
 	navbar: {
 		hello: 'coucou nav'
