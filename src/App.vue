@@ -52,7 +52,10 @@ export default {
 }
 
 #mainSection {
-  padding: 12% 5%;
+  padding: 0 5%;
+  overflow-y: auto;
+  display: flex;
+  align-items: center;
 }
 
 </style>

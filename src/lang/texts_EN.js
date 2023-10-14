@@ -14,5 +14,9 @@ export default {
 	skills: {
 		languageTitle: 'Programming languages',
 		frameworkTitle: 'Main frameworks',
+		devopsTitle: 'Devops',
+		otherTitle: 'Other',
+		howIRate: 'How my rating system work ?',
+		otherKnowledge: 'Bootstrap, Tailwind, Sass, SQL, languages (French and English), sprint and product management, Microsoft Teams, Agile - Scrum, Jira.',
 	},
 }

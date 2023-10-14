@@ -44,7 +44,6 @@ export default {
 }
 .skills-list {
   display: flex;
-  justify-content: space-between;
   flex-wrap: wrap;
 }
 

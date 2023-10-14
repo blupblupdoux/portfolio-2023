@@ -14,5 +14,9 @@ export default {
 	skills: {
 		languageTitle: 'Langages de programmation',
 		frameworkTitle: 'Frameworks principaux',
+		devopsTitle: 'Devops',
+		otherTitle: 'Autre',
+		howIRate: 'Comment fonctionne mon système de notation ?',
+		otherKnowledge: 'Bootstrap, Tailwind, Sass, SQL, langages (Français et Anglais), gestion sprint produit, Microsoft Teams, Agile - Scrum, Jira.'
 	},
 }

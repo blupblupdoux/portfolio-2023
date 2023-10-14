@@ -1,6 +1,17 @@
 <template>
 	<div class="skill-item">
 		<p>{{ skill.title }}</p>
+
+    <v-rating
+      v-if="skill.rating"
+      :model-value="skill.rating"
+      length="3"
+      size="small"
+      density="comfortable"
+      class="skill-item-rating"
+      readonly
+      half-increments
+    />
 	</div>
 </template>
 
@@ -25,8 +36,16 @@ export default {
   border: 1px solid #2f2e41;
   border-radius: 10px;
   padding: 2% 4%;
-  width: 32%;
+  width: 24%;
   margin-bottom: 1.5rem;
+  margin-right: 1%;
+  text-align: center;
+}
+
+.skill-item-rating {
+  display: flex;
+  justify-content: center;
+  margin-top: 2%;
 }
 
 </style>
