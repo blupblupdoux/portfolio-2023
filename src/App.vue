@@ -51,4 +51,8 @@ export default {
   justify-content: center;
 }
 
+#mainSection {
+  padding: 12% 5%;
+}
+
 </style>

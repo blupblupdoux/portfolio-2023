@@ -25,7 +25,7 @@ export default {
         { title: this.$t('experience.title_1'), 
           date: this.$t('experience.date_1'),
           company: { name: 'Cardemy', website: 'https://cardemy.com/home' }, 
-          description: this.$t('experience.description')
+          description: this.$t('experience.description_1')
         },
       ]
     }
@@ -34,9 +34,5 @@ export default {
 </script>
 
 <style scoped>
-
-#experienceList {
-  margin: 25% 8%;
-}
 
 </style>

@@ -13,7 +13,7 @@ const router = createRouter({
     },
     {
       path: "/skills",
-      component: () => import('../components/main/pages/skillsPage.vue')
+      component: () => import('../components/main/skills/skillsPage.vue')
     },
     {
       path: "/education",

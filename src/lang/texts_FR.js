@@ -11,4 +11,8 @@ export default {
 		date_1: 'Depuis Mai 2021',
 		description_1: 'bla bla bla'
 	},
+	skills: {
+		languageTitle: 'Langages de programmation',
+		frameworkTitle: 'Frameworks principaux',
+	},
 }
