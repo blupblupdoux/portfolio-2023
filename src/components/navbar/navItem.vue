@@ -49,7 +49,7 @@ data() {
 
 .nav-separator {
   width: 1px;
-  height: 50px;
+  height: 93px;
   background-color: #2c3e50;
   margin: auto;
 }

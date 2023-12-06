@@ -20,8 +20,8 @@ export default {
         { icon: 'fas fa-info', route: '/', text: '' },
         { icon: 'fas fa-suitcase', route: '/experience', text: '' },
         { icon: 'fas fa-lightbulb-o', route: '/skills', text: '' },
-        { icon: 'fas fa-graduation-cap', route: '/education', text: '' },
         { icon: 'fas fa-code ', route: '/projects', text: '' }
+        //{ icon: 'fas fa-graduation-cap', route: '/education', text: '' },
       ]
     }
   },
@@ -36,7 +36,6 @@ export default {
 <style scoped>
 
 #navbar {
-  height: 70vh;
   display: flex;
   flex-direction: column;
   justify-content: space-between;

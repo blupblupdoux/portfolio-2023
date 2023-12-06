@@ -9,7 +9,7 @@
     </div>
 
     <div class="experience-item-description">
-      {{ item.description }}
+      <p v-for="text in item.description">{{ text }}</p>
     </div>
     
   </div>
@@ -37,6 +37,11 @@ export default {
   border: 1px solid #2f2e41;
   border-radius: 10px;
   padding: 2% 4%;
+  margin-bottom: 4%;
+}
+
+br {
+  margin-bottom: 30px!important;
 }
 
 .experience-item-title {
@@ -54,6 +59,10 @@ export default {
 
 .experience-item-description {
   margin-top: 1rem;
+}
+
+.experience-item-description p {
+  margin-bottom: 1rem;
 }
 
 </style>
