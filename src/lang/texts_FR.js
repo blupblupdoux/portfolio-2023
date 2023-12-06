@@ -6,6 +6,16 @@ export default {
 	navbar: {
 		hello: 'coucou nav'
 	},
+	informations: {
+		title_1: "Qui suis-je ?",
+		text_1: "Sarah, développeuse fullstack (Laravel - Vuejs) en full remote, également maman d'un petit garçon.",
+
+		title_2: "Mes objectifs",
+		text_2: "Progresser, partager et équilibre. Je suis motivé et engagé dans ce que je fais tout en cherchant un équilibre entre mon travail et ma vie privé.",
+
+		title_3: "Ce que j'aime",
+		text_3: "Le calme, les challenges et la créativité. J'aime les défis, apprendre de nouvelles choses et j'adore partager mes connaissance."
+	},
 	experience: {
 		title_1: 'Developpeuse fullstack - VueJS, Laravel et Quasar',
 		date_1: 'Mai 2021 - Décembre 2023',

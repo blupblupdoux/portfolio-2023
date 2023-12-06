@@ -6,6 +6,10 @@ export default {
 	navbar: {
 		hello: 'hello world nav'
 	},
+	informations: {
+		text_1: "",
+		text_2: ""
+	},
 	experience: {
 		title_1: 'Fullstack developer - VueJS, Laravel and Quasar',
 		date_1: 'May 2021 - December 2023',

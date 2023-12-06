@@ -5,7 +5,7 @@ const router = createRouter({
   routes: [
     {
       path: "/",
-      component: () => import('../components/main/pages/infosPage.vue')
+      component: () => import('../components/main/infosPage.vue')
     },
     {
       path: "/experience",
@@ -14,10 +14,6 @@ const router = createRouter({
     {
       path: "/skills",
       component: () => import('../components/main/skills/skillsPage.vue')
-    },
-    {
-      path: "/education",
-      component: () => import('../components/main/pages/educationPage.vue')
     },
     {
       path: "/projects",

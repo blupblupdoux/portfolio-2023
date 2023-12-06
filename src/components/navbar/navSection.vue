@@ -21,7 +21,6 @@ export default {
         { icon: 'fas fa-suitcase', route: '/experience', text: '' },
         { icon: 'fas fa-lightbulb-o', route: '/skills', text: '' },
         { icon: 'fas fa-code ', route: '/projects', text: '' }
-        //{ icon: 'fas fa-graduation-cap', route: '/education', text: '' },
       ]
     }
   },
