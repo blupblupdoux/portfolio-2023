@@ -50,20 +50,4 @@ export default {
 
 <style scoped>
 
-.skill-how-I-rate {
-  display: flex;
-  align-items: center;
-  margin-top: 6%;
-  cursor: pointer;
-  color: #3C6240;
-}
-
-.skill-how-I-rate p {
-  margin-left: 5px;
-  font-style: italic;
-  font-weight: bold;
-  text-decoration: underline;
-  font-size: small;
-}
-
 </style>

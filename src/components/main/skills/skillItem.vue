@@ -36,8 +36,8 @@ export default {
   border: 1px solid #2f2e41;
   border-radius: 10px;
   padding: 2% 4%;
-  width: 24%;
-  margin-bottom: 1.5rem;
+  width: 48%;
+  margin-bottom: 0.5rem;
   margin-right: 1%;
   text-align: center;
 }
@@ -46,6 +46,16 @@ export default {
   display: flex;
   justify-content: center;
   margin-top: 2%;
+}
+
+@media (min-width: 1024px) {
+  .skill-item {
+  border-radius: 10px;
+  width: 24%;
+  margin-bottom: 1.5rem;
+  margin-right: 1%;
+  text-align: center;
+}
 }
 
 </style>
