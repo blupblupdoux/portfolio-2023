@@ -33,13 +33,25 @@ data() {
 <style scoped>
 
 .nav-item-icon {
-  width: 80px;
-  height: 80px;
+  width: 60px;
+  height: 60px;
   border: 1px solid #2f2e41;
   border-radius: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
+  box-shadow: 3px 3px 0px 1px #2c3e50;
+}
+
+.nav-item-icon i {
+  font-size: 1.8rem;
+}
+
+@media (min-width: 1024px) {
+
+.nav-item-icon {
+  width: 80px;
+  height: 80px;
   box-shadow: 3px 3px 0px 1px #2c3e50;
 }
 
@@ -52,6 +64,7 @@ data() {
   height: 93px;
   background-color: #2c3e50;
   margin: auto;
+}
 }
 
 </style>

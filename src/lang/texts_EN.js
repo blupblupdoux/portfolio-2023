@@ -7,8 +7,14 @@ export default {
 		hello: 'hello world nav'
 	},
 	informations: {
-		text_1: "",
-		text_2: ""
+		title_1: "Who am I?",
+		text_1: "Sarah, fullstack developer (Laravel - Vuejs) in full remote, also mother of a little boy.",
+
+		title_2: "My goals",
+		text_2: "Progress, sharing and balance. I'm motivated and committed to what I do, while seeking a balance between my work and my private life.",
+
+		title_3: "What I like",
+		text_3: "Calm, challenge and creativity. I love challenges, learning new things and sharing my knowledge."
 	},
 	experience: {
 		title_1: 'Fullstack developer - VueJS, Laravel and Quasar',

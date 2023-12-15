@@ -24,7 +24,12 @@ export default {
   components: { HeaderSection, NavSection },
   data() {
     return {
-      title: 'Je suis un titre'
+      //
+    }
+  },
+  computed: {
+    smallScreen() {
+      return window.innerWidth < 1024
     }
   }
 }
@@ -32,7 +37,15 @@ export default {
 
 <style scoped>
 
-#headerSection, #mainSection {
+#mainSection {
+  padding: 3% 5%;
+  overflow-y: auto;
+  display: flex;
+  align-items: center;
+}
+
+@media (min-width: 1024px) {
+  #headerSection, #mainSection {
   width: 46vw;
   height: 100vh;
 }
@@ -50,12 +63,6 @@ export default {
   align-items: center;
   justify-content: center;
 }
-
-#mainSection {
-  padding: 0 5%;
-  overflow-y: auto;
-  display: flex;
-  align-items: center;
 }
 
 </style>

@@ -36,8 +36,16 @@ export default {
 
 #navbar {
   display: flex;
+  justify-content: space-between;
+  padding: 5% 10%;
+}
+
+@media (min-width: 1024px) {
+  #navbar {
   flex-direction: column;
   justify-content: space-between;
+  padding: 0;
+}
 }
 
 </style>

@@ -15,7 +15,6 @@ a:active {
 }
 
 a:hover, a.router-link-active {
-  /* background-color: hsla(210, 45%, 24%, 0.2); */
   background-color: #cccccc;
 }
 

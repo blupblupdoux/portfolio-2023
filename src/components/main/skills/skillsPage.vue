@@ -24,7 +24,7 @@ export default {
     frameworkSkills() {
       return [
         { type: 'framework', title: 'VueJS', rating: 2.5 },
-        { type: 'framework', title: 'Laravel', rating: 2.5 },
+        { type: 'framework', title: 'Laravel', rating: 2 },
         { type: 'framework', title: 'Quasar', rating: 2 },
         { type: 'framework', title: 'Symfony', rating: 1 },
       ]
