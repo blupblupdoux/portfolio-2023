@@ -1,7 +1,7 @@
 <template>
   <div id="header">
 
-    <img class="header-img" src="src/assets/images/undraw_Programmer_re_owql.svg" alt="">
+    <img class="header-img" src="@/assets/images/undraw_programmer_re_owql.svg" alt="">
 
     <div id="header-titles">
       <h1>{{ $t('header.title') }}</h1>
