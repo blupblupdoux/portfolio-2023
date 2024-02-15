@@ -8,6 +8,9 @@
 
 		<h2>{{ $t('informations.title_3') }}</h2>
 		<p>{{ $t('informations.text_3') }}</p>
+
+		<h2>{{ $t('informations.title_4') }}</h2>
+		<p>{{ $t('informations.text_4') }}</p>
 	</div>
 </template>
 

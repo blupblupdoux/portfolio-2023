@@ -8,13 +8,16 @@ export default {
 	},
 	informations: {
 		title_1: "Qui suis-je ?",
-		text_1: "Sarah, développeuse fullstack (Laravel - Vuejs) en full remote, également maman d'un petit garçon.",
+		text_1: "Sarah, développeuse fullstack. J'aime le calme et les challenges. Les défis et apprendre de nouvelles choses ne me font pas peur !",
 
 		title_2: "Mes objectifs",
-		text_2: "Progresser, partager et équilibre. Je suis motivé et engagé dans ce que je fais tout en cherchant un équilibre entre mon travail et ma vie privé.",
+		text_2: "Progrès, partage et équilibre. Je suis motivée et engagée dans ce que je fais tout en cherchant un équilibre entre mon travail et ma vie privée.",
 
-		title_3: "Ce que j'aime",
-		text_3: "Le calme, les challenges et la créativité. J'aime les défis, apprendre de nouvelles choses et j'adore partager mes connaissance."
+		title_3: "Ce que je recherche",
+		text_3: "Un poste de développeur web Laravel ou Vuejs. Je suis cependant ouverte à d'autres technos, une petite formation et le tour est joué.",
+
+		title_4: "Où ?",
+		text_4: "Un poste en full remote obligatoire. Je suis ouverte à des déplacements ponctuels (max 1 fois par semaine selon la localisation). Je suis actuellement situé à environ 1h/1h30 de Bordeaux jusqu'à mi-2025 et après cela je serais en Bretagne (côte d'armor)."
 	},
 	experience: {
 		title_1: 'Developpeuse fullstack - VueJS, Laravel et Quasar',

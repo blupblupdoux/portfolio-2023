@@ -1,5 +1,5 @@
 <template>
-	projects
+	<p>CardCraft (IN PROGRESS)</p>
 </template>
 
 <script>

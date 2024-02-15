@@ -8,13 +8,16 @@ export default {
 	},
 	informations: {
 		title_1: "Who am I?",
-		text_1: "Sarah, fullstack developer (Laravel - Vuejs) in full remote, also mother of a little boy.",
+		text_1: "Sarah, fullstack developer. I like calm and challenges. Learning new things don't scare me!",
 
 		title_2: "My goals",
 		text_2: "Progress, sharing and balance. I'm motivated and committed to what I do, while seeking a balance between my work and my private life.",
 
-		title_3: "What I like",
-		text_3: "Calm, challenge and creativity. I love challenges, learning new things and sharing my knowledge."
+		title_3: "What am I looking for?",
+		text_3: " A job as a Laravel or Vuejs web developer. However, I'm open to other technologies, so a little training and I'm all set.",
+
+		title_4: "Where ?",
+		text_4: "A full remote position is mandatory. I'm open to occasional travel (max 1 time a week depending on location). I'm currently located about 1h/1h30 from Bordeaux until mid-2025, after which I'll be in Bretagne (côte d'armor)."
 	},
 	experience: {
 		title_1: 'Fullstack developer - VueJS, Laravel and Quasar',
