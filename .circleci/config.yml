@@ -13,7 +13,9 @@ jobs:
           override-ci-command: npm install
       - run: 
           name: Build and compile files
-          command: npm run build
+          command: |
+          npm run build
+          ls -la
   deploy:
     docker:
         - image: cimg/node:lts-browsers
