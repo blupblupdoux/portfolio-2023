@@ -15,11 +15,11 @@ jobs:
           name: Build and compile files
           command: |
             npm run build
-            ls -la
   deploy:
     docker:
-        - image: cimg/node:lts-browsers
+        - image: cimg/base:2023.03
     steps:
+      - checkout
       - run:
           name: Deploy via FTP
           command: |
