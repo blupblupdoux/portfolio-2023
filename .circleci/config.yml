@@ -13,9 +13,7 @@ jobs:
           override-ci-command: npm install
       - run: 
           name: Build and compile files
-          command: |
-            npm install
-            npm run build
+          command: npm run build
   deploy:
     docker:
         - image: cimg/base:2023.03
