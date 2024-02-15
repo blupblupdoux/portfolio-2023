@@ -13,14 +13,14 @@ jobs:
   deploy:
     docker:
         - image: cimg/base:2023.03
-      steps:
-        - checkout
-         - run:
-          name: Deploy via FTP
-          command: |
-            sudo apt-get update
-            sudo apt-get install -y lftp
-            lftp -c "set ftp:ssl-allow no; open -u $FTP_USERNAME,$FTP_PASSWORD $FTP_SERVER; mirror -R --delete dist /; bye"
+    steps:
+      - checkout
+        - run:
+        name: Deploy via FTP
+        command: |
+          sudo apt-get update
+          sudo apt-get install -y lftp
+          lftp -c "set ftp:ssl-allow no; open -u $FTP_USERNAME,$FTP_PASSWORD $FTP_SERVER; mirror -R --delete dist /; bye"
 
 # Orchestrate our job run sequence
 workflows:
