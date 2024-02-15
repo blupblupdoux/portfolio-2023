@@ -14,8 +14,8 @@ jobs:
       - run: 
           name: Build and compile files
           command: |
-          npm run build
-          ls -la
+            npm run build
+            ls -la
   deploy:
     docker:
         - image: cimg/node:lts-browsers
