@@ -2,7 +2,7 @@
 	<div class="skill-item">
 		<p>{{ skill.title }}</p>
 
-    <v-rating
+    <!-- <v-rating
       v-if="skill.rating"
       :model-value="skill.rating"
       length="3"
@@ -11,7 +11,7 @@
       class="skill-item-rating"
       readonly
       half-increments
-    />
+    /> -->
 	</div>
 </template>
 

@@ -39,6 +39,6 @@ export default {
 		frameworkTitle: 'Frameworks principaux',
 		devopsTitle: 'Devops',
 		otherTitle: 'Autre',
-		otherKnowledge: 'Bootstrap, Tailwind, Sass, SQL, langages (Français et Anglais), gestion sprint produit, Microsoft Teams, Agile - Scrum, Jira.'
+		otherKnowledge: "Français (langue maternelle), Anglais (couramment à l’écrit et correct à l’oral), gestion sprint produit, Microsoft Teams, méthode Agile - Scrum, Jira, Figma."
 	},
 }
