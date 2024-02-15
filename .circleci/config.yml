@@ -15,11 +15,6 @@ jobs:
           name: Build and compile files
           command: |
             npm run build
-  deploy:
-    docker:
-        - image: cimg/node:lts-browsers
-    steps:
-      - checkout
       - run:
           name: Deploy via FTP
           command: |
@@ -27,12 +22,8 @@ jobs:
             sudo apt-get install -y lftp
             ls -la
             lftp -c "set ftp:ssl-allow no; open -u $FTP_USERNAME,$FTP_PASSWORD $FTP_SERVER; mirror -R --delete ./dist /; bye"
-
+      
 # Orchestrate our job run sequence
 workflows:
-  build_and_deploy:
-    jobs:
-      - build
-      - deploy:
-          requires:
-            - build
+  jobs:
+    - build
