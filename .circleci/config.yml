@@ -7,7 +7,10 @@ jobs:
       - image: cimg/node:lts-browsers
     steps:
       - checkout
-      - node/install-packages
+      - run: sudo npm install -g npm@latest
+      - node/install-packages:
+          cache-path: ~/project/node_modules
+          override-ci-command: npm install
       - run: 
           name: Build and compile files
           command: |
