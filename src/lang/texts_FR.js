@@ -41,4 +41,8 @@ export default {
 		otherTitle: 'Autre',
 		otherKnowledge: "Français (langue maternelle), Anglais (couramment à l’écrit et correct à l’oral), gestion sprint produit, Microsoft Teams, méthode Agile - Scrum, Jira, Figma."
 	},
+	projects: {
+		date_1: 'Commencé en Janvier 2024',
+		description_1: "Une plateforme simple pour créer et jouer des groupes de flashcards. Il s'agit d'un travail en cours, des mises à jour seront bientôt disponibles."
+	}
 }

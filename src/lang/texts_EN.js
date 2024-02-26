@@ -41,4 +41,8 @@ export default {
 		otherTitle: 'Other',
 		otherKnowledge: "French (native language), English (fluent in writing and correct orally), sprint and product management, Microsoft Teams, Agile - Scrum, Jira, Figma"
 	},
+	projects: {
+		date_1: 'Started in January 2024',
+		description_1: 'A simple platform to create and play deck of flashcards. This is a work in progress, with updates coming soon.'
+	}
 }
